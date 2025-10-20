@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Jeito Cearense de Falar</title>
+  <meta name="description" content="Dicionário ilustrado de gírias e expressões típicas do Ceará">
+  <link rel="stylesheet" href="CSS/style.css">
+</head>
+<body>
+<section class="cover-section">
+  <img src="IMG/Logo cearense PNG.png" alt="Jeito Cearense de Falar — Um dicionário ilustrado das expressões de Ceará" class="cover-image">
+</section>
+<header class="title-box">
+  <h1>Jeito Cearense de Falar</h1>
+  <p>Um dicionário ilustrado das expressões típicas do Ceará</p>
+</header>
+
+  <main>
+    <section class="search-filters">
+      <div class="search-container">
+        <input type="search" id="search-input" placeholder="Buscar palavra ou expressão..." aria-label="Buscar no dicionário">
+      </div>
+      <div class="filters-container">
+        <label for="category-filter">Filtrar por:</label>
+        <select id="category-filter" aria-label="Filtrar por categoria">
+          <option value="">Todas as categorias</option>
+        </select>
+      </div>
+    </section>
+
+    <section class="dictionary-grid" id="dictionary-grid">
+      <!-- Cards serão injetados aqui via JavaScript -->
+    </section>
+
+    <div class="modal-overlay" id="modal-overlay" aria-hidden="true" aria-labelledby="modal-title" role="dialog" tabindex="-1">
+      <div class="modal-content">
+        <button id="modal-close" aria-label="Fechar">&times;</button>
+        <div id="modal-body">
+          <!-- Conteúdo do modal será injetado aqui -->
+        </div>
+      </div>
+    </div>
+
+    <div class="favorites-list" id="favorites-list" style="display: none;">
+      <h2>Favoritos</h2>
+      <div id="favorites-content"></div>
+    </div>
+
+  </main>
+
+  <footer>
+    <p>Desenvolvido pela equipe:Caio, João Francisco, Priscila Barbosa, Emilly, Alessa, Beatriz, Clara, Daiana, Jhenifer, Ana Lia, Maerllen</p>
+    <div class="footer-actions">
+      <button id="print-btn">Imprimir</button>
+      <button id="toggle-theme">Modo Escuro</button>
+    </div>
+  </footer>
+
+  <script src="JS/app.js"></script>
+</body>
+</html>
