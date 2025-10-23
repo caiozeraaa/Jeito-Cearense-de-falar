@@ -27,14 +27,30 @@
 
 body {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  background-color: var(--background);
   color: var(--text);
   line-height: 1.6;
   padding: 20px;
   transition: background-color 0.3s, color 0.3s;
+
+  background: linear-gradient(180deg,
+    #f97316 0%,      
+    #fde68a 20%,     
+    #fefefe 40%,     
+    #fefefe 80%,     
+    #f97316 100%     
+  );
+
 }
 
-/* === CAPA === */
+[data-theme="dark"] body {
+  background: linear-gradient(180deg,
+    #111827 0%,      
+    #1f2937 30%,     
+    #1f2937 70%,     
+    #111827 100%     
+  );
+}
+
 .cover-section {
   width: 100%;
   display: flex;
@@ -49,7 +65,7 @@ body {
   height: auto;
   border-radius: 12px;
   box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
-  border: 2px solid #fde68a; /* Borda areia claro */
+  border: 2px solid #fde68a; 
   display: block;
 }
 
@@ -60,7 +76,7 @@ body {
   }
 }
 
-/* === CAIXA DE TÍTULO === */
+/* Titulo */
 .title-box {
   background-color: #fff;
   border-radius: 16px;
@@ -70,13 +86,13 @@ body {
   margin: 1rem auto;
   max-width: 800px;
   width: 90%;
-  border: 1px solid var(--border); /* Use a variável CSS */
+  border: 1px solid var(--border); 
 }
 
 .title-box h1 {
   font-size: 2.5rem;
   margin-bottom: 0.5rem;
-  color: #d32f2f; /* Vermelho da imagem */
+  color: #d32f2f; 
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   font-weight: bold;
 }
@@ -84,7 +100,7 @@ body {
 .title-box p {
   font-size: 1.1rem;
   opacity: 0.9;
-  color: #00796b; /* Verde-azulado da imagem */
+  color: #00796b; 
   font-style: italic;
   margin: 0;
 }

@@ -1,10 +1,9 @@
-// Dados dos verbetes
 const verbetes = [
   {
     "id": "1",
     "palavra": "Arretado",
     "categoria": "Gírias",
-    "imagem": "https://placehold.co/300x200/orange/white?text=Arretado",
+    "imagem": "IMG/IMG Arretado.png",
     "definicao": "Que é muito bom, forte, corajoso. Usado como elogio: 'Esse cabra é arretado!'",
     "exemplo": "— Ôxe, o baile foi arretado ontem!",
     "curiosidade": "Muito usado no Nordeste como expressão de intensidade."
@@ -13,7 +12,7 @@ const verbetes = [
     "id": "2",
     "palavra": "Cabra da peste",
     "categoria": "Gírias",
-    "imagem": "https://placehold.co/300x200/green/white?text=Cabra",
+    "imagem": "IMG/IMG Cabra da peste.jpeg",
     "definicao": "Expressão usada para se referir a alguém ou algo que é muito ruim, chato ou problemático.",
     "exemplo": "Essa moto é cabra da peste, não pega nunca.",
     "curiosidade": "Tem origem em histórias populares e é uma expressão carismática do sertão."
@@ -22,7 +21,7 @@ const verbetes = [
     "id": "3",
     "palavra": "Mucuripe",
     "categoria": "Lugares",
-    "imagem": "https://placehold.co/300x200/blue/white?text=Mucuripe",
+    "imagem": "IMG/IMG Mucuripe.jpeg",
     "definicao": "Bairro de Fortaleza conhecido por sua praia e cultura popular.",
     "exemplo": "Vamos pro mucuripe no final de semana?",
     "curiosidade": "O nome vem do tupi e significa 'lugar onde há muito peixe'."
@@ -31,7 +30,7 @@ const verbetes = [
     "id": "4",
     "palavra": "Mandacaru",
     "categoria": "Natureza",
-    "imagem": "https://placehold.co/300x200/yellow/black?text=Mandacaru",
+    "imagem": "IMG/IMG mandacaru.jpeg",
     "definicao": "Planta espinhosa típica do sertão nordestino, usada como cerca viva.",
     "exemplo": "O sertão é coberto de mandacaru.",
     "curiosidade": "Sua flor é símbolo da caatinga e floresce raramente."
@@ -40,7 +39,7 @@ const verbetes = [
     "id": "5",
     "palavra": "Buchada",
     "categoria": "Comidas",
-    "imagem": "https://placehold.co/300x200/brown/white?text=Buchada",
+    "imagem": "IMG/IMG Buchada.jpeg",
     "definicao": "Prato tradicional feito com vísceras de bode ou carneiro, temperado e cozido.",
     "exemplo": "Hoje tem buchada no restaurante da praça.",
     "curiosidade": "Prato típico de festas no interior do Ceará."
@@ -49,7 +48,7 @@ const verbetes = [
     "id": "6",
     "palavra": "Cariri",
     "categoria": "Regiões",
-    "imagem": "https://placehold.co/300x200/purple/white?text=Cariri",
+    "imagem": "IMG/IMG Cariri.jpeg",
     "definicao": "Região do sul do Ceará, conhecida por suas cidades históricas e clima ameno.",
     "exemplo": "Vou visitar o Cariri mês que vem.",
     "curiosidade": "A região é rica em sítios arqueológicos e paleontológicos."
@@ -58,7 +57,7 @@ const verbetes = [
     "id": "7",
     "palavra": "Ceará, ôxe",
     "categoria": "Expressões",
-    "imagem": "https://placehold.co/300x200/red/white?text=Ceará",
+    "imagem": "IMG/IMG Ceára.jpeg",
     "definicao": "Expressão usada para demonstrar orgulho ou identificação com o estado do Ceará.",
     "exemplo": "Ceará, ôxe! Aqui a gente é feliz!",
     "curiosidade": "Usada em canções e manifestações culturais."
@@ -67,7 +66,7 @@ const verbetes = [
     "id": "8",
     "palavra": "Ruma",
     "categoria": "Quantificador",
-    "imagem": "https://placehold.co/300x200/gray/white?text=Ruma",
+    "imagem": "IMG/IMG Ruma.jpeg",
     "definicao": "Muitos, uma grande quantidade.",
     "exemplo": "Tem ruma gente aqui hoje.",
     "curiosidade": "Expressão popular em todo o Nordeste."
@@ -76,7 +75,7 @@ const verbetes = [
     "id": "9",
     "palavra": "Inham",
     "categoria": "Carinho",
-    "imagem": "https://placehold.co/300x200/pink/black?text=Inham",
+    "imagem": "IMG/IMG Inham.jpeg",
     "definicao": "Forma carinhosa de chamar alguém, semelhante a 'filho' ou 'meu bem'.",
     "exemplo": "Vem cá, inham.",
     "curiosidade": "Expressão afetuosa muito usada entre familiares."
@@ -85,7 +84,7 @@ const verbetes = [
     "id": "10",
     "palavra": "Forró",
     "categoria": "Música/Festa",
-    "imagem": "https://placehold.co/300x200/orange/black?text=Forró",
+    "imagem": "IMG/IMG Forró.jpeg",
     "definicao": "Gênero musical e dança popular do Nordeste brasileiro.",
     "exemplo": "Vamos dançar forró sábado?",
     "curiosidade": "Originou-se do baião e é acompanhado de sanfona, zabumba e triângulo."
@@ -94,7 +93,7 @@ const verbetes = [
     "id": "11",
     "palavra": "Quadrilha",
     "categoria": "Festa junina",
-    "imagem": "https://placehold.co/300x200/red/white?text=Quadrilha",
+    "imagem": "IMG/IMG quadrilha.jpeg",
     "definicao": "Dança típica das festas juninas, com coreografia e roupas tradicionais.",
     "exemplo": "A quadrilha da escola foi a melhor do arraial.",
     "curiosidade": "Tem raízes europeias e foi adaptada ao Nordeste."
@@ -103,12 +102,38 @@ const verbetes = [
     "id": "12",
     "palavra": "Pé de serra",
     "categoria": "Música/Local",
-    "imagem": "https://placehold.co/300x200/green/black?text=Pé+de+serra",
+    "imagem": "IMG/IMG pé de serra.jpeg",
     "definicao": "Estilo musical do sertão nordestino, também pode se referir a moradores do pé das serras.",
     "exemplo": "Toca um pé de serra aí, violeiro!",
     "curiosidade": "Tem ritmo mais lento e melodias tristes."
+  },
+  {
+    "id": "13",
+    "palavra": "Valha",
+    "categoria": "Expressões",
+    "imagem": "IMG/IMG Valha.jpeg",
+    "definicao": "Expressão usada para demonstrar espanto, surpresa ou indignação. Equivale a 'Meu Deus!', 'Céus!', 'Nossa!'.",
+    "exemplo": "— Valha, menina! Você assustou meu coração!",
+    "curiosidade": "É uma forma carismática de expressar surpresa, muito comum em conversas do interior do Nordeste."
+  },
+  {
+    "id": "14",
+    "palavra": "Abirobado",
+    "categoria": "Gírias",
+    "imagem": "IMG/IMG Abirobado (1).jpeg",
+    "definicao": "Pessoa meio doida, atrapalhada ou sem noção.",
+    "exemplo": "Ele ficou abirobado com a notícia.",
+    "curiosidade": "Termo regional com origem incerta, mas muito usado no dia a dia."
+  },
+  {
+    "id": "15",
+    "palavra": "Ceará",
+    "categoria": "Expressões",
+    "imagem": "IMG/IMG Ceára.jpeg",
+    "definicao": "Nome do estado, cuja origem do termo é controversa. Segundo algumas teorias, pode ser de origem tupi e significar 'canto da jandaia' ou 'água que corre', mas um estudo aponta uma possível origem hebraica, significando 'tempestade, temporal, chuva torrencial repentina'.",
+    "exemplo": "O Ceará é um estado cheio de belezas naturais.",
+    "curiosidade": "O nome do estado é uma homenagem à sua história e cultura ricas."
   }
-  
 ];
 
 // Elementos do DOM
